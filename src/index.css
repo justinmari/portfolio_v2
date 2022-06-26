@@ -1,0 +1,23 @@
+.navlink-link {
+  text-decoration: none;
+}
+
+.Navlink {
+  text-align: center;
+}
+
+.Navbar {
+  height: 125px;
+}
+
+.navlogo-img {
+  height: 125px;
+}
+
+.navlink-span {
+  font-size: 24px;
+}
+
+.debug {
+  border: 1px red solid;
+}
