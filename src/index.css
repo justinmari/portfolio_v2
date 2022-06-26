@@ -1,23 +1,45 @@
-.navlink-link {
-  text-decoration: none;
+/* Html */
+body {
+  padding: 0;
+  margin: 0;
 }
 
+/* Navlink */
 .Navlink {
   text-align: center;
 }
-
-.Navbar {
-  height: 125px;
+.navlink-link {
+  text-decoration: none;
+}
+.navlink-span {
+  font-size: 30px;
 }
 
+/* Navbar */
 .navlogo-img {
   height: 125px;
 }
 
-.navlink-span {
-  font-size: 24px;
-}
-
+/* Misc */
 .debug {
   border: 1px red solid;
+}
+
+/* section */
+.section {
+  height: 70vh;
+}
+
+/* Hero */
+.hero-self-image {
+  height: 300px;
+  border-radius: 10px 50px;
+}
+h1.hero-span {
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+h2.hero-span {
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
 }

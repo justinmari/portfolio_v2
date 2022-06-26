@@ -1,9 +1,10 @@
+import { paths } from "./constants/pathConstants";
+
 const Navlogo = () => {
-	const LOGO_PATH = "/assets/images/justinMariLogo.png";
 
 	return (
-		<div className="Navlogo mr-auto">
-			<img className="navlogo-img" src={LOGO_PATH}/>
+		<div className="Navlogo col-xl-2 mx-2">
+			<img className="navlogo-img" src={paths.LOGO}/>
 		</div>
 	);
 }
