@@ -1,6 +1,6 @@
-import Navlink from "./Navlink";
-import Navlogo from "./Navlogo";
-import { routes } from "./constants/routeConstants";
+import Navlink from "../components/Navlink";
+import Navlogo from "../components/Navlogo";
+import { routes } from "../constants/routeConstants";
 
 const Navbar = () => {
 

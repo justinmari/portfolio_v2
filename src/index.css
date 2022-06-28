@@ -2,6 +2,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* Navlink */
@@ -32,14 +33,23 @@ body {
 
 /* Hero */
 .hero-self-image {
-  height: 300px;
-  border-radius: 10px 50px;
+  padding: 2rem;
+  border-radius: 40px 70px;
 }
-h1.hero-span {
+h1.hero-text {
   font-family: 'Tangerine', cursive;
-  font-size: 60px;
+  font-size: calc(300% + 1vw + 1vh);;
 }
-h2.hero-span {
+h2.hero-text {
   font-family: 'Tangerine', cursive;
-  font-size: 30px;
+  font-size: calc(100% + 1vw + 1vh);;
+}
+span.hero-text {
+  font-family: 'Tangerine', cursive;
+  font-size: calc(100% + 1vw + 1vh);;
+}
+
+/* Navbar */
+.Navbar {
+  background-color: white;
 }

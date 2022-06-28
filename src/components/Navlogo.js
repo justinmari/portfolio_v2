@@ -1,4 +1,4 @@
-import { paths } from "./constants/pathConstants";
+import { paths } from "../constants/pathConstants";
 
 const Navlogo = () => {
 

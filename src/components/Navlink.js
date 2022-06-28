@@ -1,6 +1,6 @@
 import { useSpring, animated } from "react-spring";
 import { useState } from "react";
-import { colours } from "./constants/colourConstants"
+import { colours } from "../constants/colourConstants"
 
 const Navlink = (props) => {
 	const [hovered, setHovered] = useState(false);
@@ -15,16 +15,15 @@ const Navlink = (props) => {
 	}
 
 	const divStyle = useSpring({
-		//translateY: hovered ? -5 : 0,
-		backgroundColor: hovered ? colours.ORANGE : colours.WHITE,
-		padding: hovered ? 10 : 0,
+		color: hovered ? colours.ORANGE : colours.WHITE,
 		config: {
 			duration: DURATION
 		}
 	});
 
 	const textStyle = useSpring({
-		color: hovered ? colours.WHITE : colours.BLACK,
+		color: hovered ? colours.ORANGE : colours.BLACK,
+		borderBottom: hovered ? "4px solid orange" : "0px solid orange",
 		config: {
 			duration: DURATION
 		}
